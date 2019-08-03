@@ -1,0 +1,17 @@
+{
+  "name": "elm-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "elm reactor",
+    "build": "elm make --output=app.js src/Main.elm"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.19.0-no-deps",
+    "elm-format": "^0.8.1",
+    "elm-test": "^0.19.0-rev6"
+  }
+}
